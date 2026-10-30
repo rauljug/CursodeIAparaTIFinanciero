@@ -14,6 +14,10 @@ Antes de abrir cualquier libro de historia de la computación o enfrentarnos a f
 
 Absolutamente toda la inteligencia artificial moderna —desde el primer prototipo de 1958 hasta los modelos masivos de lenguaje o los sistemas bancarios que evalúan fraudes transaccionales en milisegundos— está construida sobre **un principio aritmético elemental de sentido común**. Si comprendemos la lógica de este bloque fundamental, tendremos la llave para interpretar cualquier arquitectura de IA sin importar su tamaño o complejidad.
 
+![Anatomía de una Decisión: De la Intuición al Algoritmo](imagenes/media_1793325526189_ba82f052.png)
+
+*Nota.* Representación analítica de la arquitectura cognitiva y algorítmica de toma de decisiones: analogía funcional entre la ponderación de riesgo humano y la formulación lineal de crédito bancario. Diseño propio renderizado mediante inteligencia artificial.
+
 Pensemos en cómo tomamos una decisión en la vida real. Imaginemos que un banco debe decidir si le presta dinero a una persona, o que un amigo nos pide prestado. Para tomar la decisión, no adivinamos al azar; nuestro cerebro sigue cuatro pasos muy sencillos:
 
 1. **Las Entradas (Los Datos o "Los Ingredientes"):**  
