@@ -20,28 +20,41 @@ Absolutamente toda la inteligencia artificial moderna —desde el primer prototi
 
 Pensemos en cómo tomamos una decisión en la vida real. Imaginemos que un banco debe decidir si le presta dinero a una persona, o que un amigo nos pide prestado. Para tomar la decisión, no adivinamos al azar; nuestro cerebro sigue cuatro pasos muy sencillos:
 
-1. **Las Entradas (Los Datos o "Los Ingredientes"):**  
-   Son las observaciones o hechos reales del mundo exterior. En el caso de un crédito, son datos concretos: ¿cuánto dinero gana al mes la persona? ($x_1$) y ¿cuánto dinero debe actualmente en otras tarjetas? ($x_2$). Cada dato es simplemente un número observable.
+1. **Las Entradas (Los Datos o "Los Ingredientes") y 2. Los Pesos (Las Perillas de Volumen):**  
+   Son las observaciones o hechos reales del mundo exterior. En el caso de un crédito: ¿cuánto dinero gana al mes la persona? ($x_1$) y ¿cuánto dinero debe actualmente en otras tarjetas? ($x_2$). En la vida real, no todas las pistas tienen el mismo valor. Que la persona tenga ingresos altos es algo positivo que suma confianza (un **peso positivo +W**). Que tenga deudas vencidas es una señal de alarma que resta confianza (un **peso negativo -W**). ¿De qué color es la camisa del solicitante? No importa absolutamente nada (un **peso cero W = 0**). Aprender en IA significa girar esas perillas de volumen hasta encontrar la importancia exacta de cada dato.
 
-2. **Los Pesos (La Importancia o "Las Perillas de Volumen"):**  
-   En la vida real, no todas las pistas tienen el mismo valor. Aquí entra el concepto de **peso**: la importancia que le damos a cada dato.  
-   * Que la persona tenga ingresos altos es algo positivo que suma confianza (un peso positivo y grande).  
-   * Que tenga deudas vencidas es una señal de alarma que resta confianza (un peso negativo).  
-   * ¿De qué color es la camisa del solicitante? Para evaluar si va a pagar un crédito, el color de su ropa no importa absolutamente nada; por lo tanto, su peso es cero ($0$).  
-   Cuando en las noticias escuchamos que una inteligencia artificial está *"aprendiendo"*, lo único que la máquina está haciendo es girar lentamente esas perillas de volumen hasta encontrar la importancia exacta que debe asignarle a cada dato para no equivocarse.
+![Los Pesos en la IA: Las Perillas de Importancia (W)](imagenes/media_1793325923798_d3f47a57.png)
+
+*Nota.* Representación analítica de la ponderación sináptica en modelos lineales y neuronales: categorización de pesos positivos, negativos y nulos en la función de evaluación crediticia. Diseño propio renderizado mediante inteligencia artificial.
 
 3. **La Sumatoria Ponderada (Poner Todo en la Balanza):**  
    Una vez que tenemos los datos y su grado de importancia, la máquina hace lo que cualquiera haría en una libreta de almacén: multiplica cada dato por su importancia y los suma todos para obtener un puntaje único en una balanza:
    $$\text{Puntaje} = (\text{Ingreso} \times \text{Importancia del Ingreso}) + (\text{Deuda} \times \text{Importancia de la Deuda})$$
 
+![La Sumatoria Ponderada: Poner Todo en la Balanza](imagenes/media_1793326114400_906d350d.png)
+
+*Nota.* Representación analítica de la combinación lineal y agregación ponderada: formulación del producto punto vectorial (wᵀx) como métrica escalar de solvencia crediticia. Diseño propio renderizado mediante inteligencia artificial.
+
 4. **El Sesgo (La Inclinación Inicial o "El Empujoncito"):**  
-   ¿Qué pasa antes de que el cliente diga una sola palabra? El banco ya tiene una postura de partida. Si la economía está en crisis y el banco tiene miedo de prestar, arranca con una desconfianza previa (un sesgo negativo); el cliente tendrá que presentar datos extraordinarios para que la balanza se incline a su favor. En cambio, si el banco está en una campaña agresiva para colocar créditos, arranca con un empujón favorable (un sesgo positivo). El sesgo es simplemente la predisposición inicial de la balanza antes de mirar las pistas.
+   ¿Qué pasa antes de que el cliente diga una sola palabra? El banco ya tiene una postura de partida. Si la economía está en crisis y el banco tiene miedo de prestar, arranca con una desconfianza previa (un **sesgo negativo -b**); el cliente tendrá que presentar datos extraordinarios para que la balanza se incline a su favor. En cambio, si el banco está en una campaña agresiva para colocar créditos, arranca con un empujón favorable (un **sesgo positivo +b**). El sesgo es simplemente la predisposición inicial de la balanza antes de mirar las pistas.
+
+![El Sesgo (b): La Inclinación Inicial de la Decisión](imagenes/media_1793326216342_2092d120.png)
+
+*Nota.* Representación analítica del parámetro de sesgo (bias, b) en modelos de decisión lineal: función como término independiente que calibra el umbral de aversión o tolerancia al riesgo institucional. Diseño propio renderizado mediante inteligencia artificial.
 
 5. **La Regla de Decisión (El Interruptor):**  
    Al final del cálculo, todo se resume en un interruptor: si el puntaje final de la balanza supera una línea mínima de meta, el sistema responde **"SÍ"** (crédito aprobado, o "en la foto hay un gato", o "la transacción es legítima"). Si no supera esa línea, el sistema responde **"NO"** (crédito rechazado, o "no es un gato", o "alerta de fraude").
 
-En resumen, la fórmula más elemental de la inteligencia artificial es simplemente:
-$$\text{Decisión} = (\text{Datos} \times \text{Importancia}) + \text{Inclinación Inicial} \implies \text{Suma} \rightarrow \text{Respuesta}$$
+![La Regla de Decisión: El Interruptor Binario](imagenes/media_1793326534099_dfa707e4.png)
+
+*Nota.* Representación analítica de la función de activación y corte de umbral (Heaviside/Sigmoide): mecanismo determinista de conversión entre el valor latente continuo y la decisión binaria de riesgo. Diseño propio renderizado mediante inteligencia artificial.
+
+En resumen, la gran ecuación universal de la inteligencia artificial es simplemente:
+$$\text{Decisión} = (\text{Datos} \times \text{Importancia}) + \text{Inclinación Inicial} \implies \text{Suma Total} \rightarrow \text{Respuesta}$$
+
+![La Gran Ecuación Universal de la Inteligencia Artificial](imagenes/media_1793326662692_1538be04.png)
+
+*Nota.* Síntesis analítica del átomo computacional de la inteligencia artificial: la combinación lineal ponderada con sesgo y activación funcional como fundamento universal de modelos conexionistas y predictivos. Diseño propio renderizado mediante inteligencia artificial.
 
 Cualquier persona que domine esta sencilla idea ya comprende el átomo fundamental de la disciplina. Cuando en 1958 Frank Rosenblatt construyó el **Perceptrón**, utilizó exactamente esta fórmula con una sola neurona. Cuando en los años noventa y dos mil surgieron las **Redes Neuronales Profundas**, lo único que se hizo fue conectar cientos de estas multiplicaciones y sumas unas detrás de otras. Y cuando hoy interactuamos con modelos de última generación con cientos de miles de millones de parámetros, en el fondo son miles de millones de estas mismas multiplicaciones y sumas ejecutadas a velocidades vertiginosas sobre tarjetas de procesamiento gráfico. Toda la inteligencia artificial del mundo es, en esencia, esta misma suma multiplicada en escala.
 
