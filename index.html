@@ -13,7 +13,7 @@
       padding: 40px 20px;
     }
     .book-container {
-      max-width: 900px;
+      max-width: 1080px;
       margin: 0 auto;
       background: #ffffff;
       padding: 60px 80px;
@@ -97,6 +97,52 @@
       font-size: 0.9em;
       font-family: Consolas, monospace;
     }
+  
+    .sticky-story-container {
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+      margin: 25px 0 35px 0;
+    }
+    .story-column {
+      flex: 1 1 54%;
+      min-width: 0;
+    }
+    .sticky-image-column {
+      flex: 1 1 46%;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 25px;
+      background: #fafbfc;
+      border: 1px solid #e1e4e8;
+      border-radius: 8px;
+      padding: 14px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+    .sticky-image-column img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      display: block;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .sticky-image-column .apa-note {
+      margin-top: 10px;
+      font-size: 0.82rem;
+      color: #555;
+      line-height: 1.45;
+    }
+    @media (max-width: 900px) {
+      .sticky-story-container {
+        flex-direction: column;
+      }
+      .sticky-image-column {
+        position: static;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+
   </style>
 </head>
 <body>

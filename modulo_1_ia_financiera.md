@@ -45,6 +45,10 @@ Cualquier persona que domine esta sencilla idea ya comprende el átomo fundament
 
 ## 1.1. El Nacimiento de la IA, el Perceptrón y el Primer Invierno: Álgebra Lineal y Cómputo Analógico (1956–1969)
 
+![La Atmósfera de los Años Sesenta: De la Carrera Espacial al Cerebro Electrónico](imagenes/media_1793322015119_eadfabea.jpg)
+
+*Figura 1-0. Mural alegórico de la atmósfera de los años sesenta: la carrera espacial (Sputnik 1957, Apolo 11 en 1969), el discurso de John F. Kennedy, los científicos trabajando con cintas magnéticas de carrete abierto y el optimismo de la prensa de la época proclamando la era del 'cerebro electrónico'.*
+
 Para entender verdaderamente la inteligencia artificial no basta con revisar ecuaciones; hay que situarse en la atmósfera de su época. Los años cincuenta y sesenta estuvieron marcados por la tensión de la Guerra Fría y la fascinación mundial por la carrera espacial. Era el mundo que vio el lanzamiento del satélite soviético Sputnik en 1957, el célebre discurso de John F. Kennedy en 1961 prometiendo poner un ser humano en la Luna antes de que terminara la década, y la culminación épica de esa promesa con el alunizaje del Apolo 11 en julio de 1969. En la imaginación pública de aquellos años, la ciencia no tenía límites: si el ser humano era capaz de escapar de la gravedad terrestre y navegar hacia el espacio exterior, construir un "cerebro electrónico" parecía simplemente el siguiente paso natural.
 
 En ese clima de audacia científica se celebró la mítica Conferencia de Dartmouth (1956), donde un puñado de matemáticos y científicos de la computación acuñó por primera vez el término "Inteligencia Artificial". Poco después, en 1958, el psicólogo Frank Rosenblatt presentó en el Laboratorio Aeronáutico de Cornell el **Perceptrón**, el primer modelo formal de una neurona biológica capaz de aprender. Los primeros experimentos no corrieron en una computadora de escritorio —que ni siquiera existían—, sino en la gigantesca **IBM 704**, una máquina de bulbos y tubos de vacío que ocupaba un salón entero y consumía la energía de una pequeña fábrica.
