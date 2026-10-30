@@ -59,7 +59,7 @@ En ese clima de audacia científica se celebró la mítica Conferencia de Dartmo
 
 Entusiasmada con los resultados, la Oficina de Investigación Naval de los Estados Unidos financió la construcción de una máquina analógica dedicada: el **Mark I Perceptron (1958)**. Lejos de parecerse a un servidor moderno, el Mark I era un imponente banco de gabinetes metálicos conectados mediante cables y clavijas similares a los conmutadores telefónicos de la época. Tenía como "ojo" una cámara fotográfica rudimentaria con un arreglo de $20 \times 20$ fotocélulas (400 píxeles ópticos) montada sobre un tripié de madera, y sus "pesos sinápticos" eran potenciómetros físicos reales: pequeñas resistencias variables impulsadas por motores eléctricos que giraban físicamente a la izquierda o derecha conforme la máquina "aprendía" a distinguir una tarjeta marcada con un círculo de una con un triángulo.
 
-![La Máquina Mark I Perceptron en Cornell (1958)](imagenes/media_17933067220_55fb222a.png)
+![La Máquina Mark I Perceptron en Cornell (1958)](imagenes/media_1793313067220_55fb222a.png)
 
 *Figura 1-B. La máquina Mark I Perceptron en el Cornell Aeronautical Laboratory (1958), mostrando la cámara óptica sobre tripié, los paneles de clavijas de interconexión y los gabinetes de potenciómetros motorizados.*
 
