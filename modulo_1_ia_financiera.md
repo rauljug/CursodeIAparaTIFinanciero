@@ -8,11 +8,11 @@
 ---
 
 ## El Principio Fundamental: ¿Cómo Piensa Realmente una Máquina?
-### La Fórmula Más Básica de Toda la Inteligencia Artificial Explicada con Manzanitas
+### La Intuición Esencial: Cómo se Transforma la Información en una Decisión Inteligente
 
-Antes de abrir cualquier libro de historia de la computación o enfrentarnos a fórmulas matemáticas complejas que puedan parecer intimidantes, conviene derribar el mito más grande de todos: **la Inteligencia Artificial no es magia, no es un cerebro consciente y no requiere ser un genio para entender cómo funciona su corazón**. 
+Antes de abrir cualquier libro de historia de la computación o enfrentarnos a fórmulas matemáticas que a primera vista puedan parecer abstractas, conviene derribar el mito más extendido: **la Inteligencia Artificial no es magia ni un cerebro consciente inescrutable**. 
 
-Absolutamente toda la inteligencia artificial del planeta —desde el primer prototipo de 1958 hasta los modelos masivos como ChatGPT o los algoritmos bancarios que detectan fraudes con tarjetas en fracciones de segundo— está construida sobre una sola operación aritmética elemental que cualquier persona puede comprender. Si entendemos esta pequeña receta, habremos entendido el motor secreto que mueve a todas las máquinas inteligentes.
+Absolutamente toda la inteligencia artificial moderna —desde el primer prototipo de 1958 hasta los modelos masivos de lenguaje o los sistemas bancarios que evalúan fraudes transaccionales en milisegundos— está construida sobre **un principio aritmético elemental de sentido común**. Si comprendemos la lógica de este bloque fundamental, tendremos la llave para interpretar cualquier arquitectura de IA sin importar su tamaño o complejidad.
 
 Pensemos en cómo tomamos una decisión en la vida real. Imaginemos que un banco debe decidir si le presta dinero a una persona, o que un amigo nos pide prestado. Para tomar la decisión, no adivinamos al azar; nuestro cerebro sigue cuatro pasos muy sencillos:
 
